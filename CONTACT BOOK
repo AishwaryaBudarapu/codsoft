@@ -1,0 +1,37 @@
+class ContactBook:
+  def __init__(self):
+     self.contacts={}
+def add_item(self):
+  name=input("Enter Name: ")
+number=input("Enter Phone Number: ")
+  self.tcontacts[name]=number
+  print("Contact Added")
+
+def remove_item(self):
+name=input("Enter Nmae: ")
+if name in self.contacts.keys():
+self.contacts.pop(name)
+  print("Contact Removed")
+else:
+ print("No Contact Found")
+
+def show_items(self):
+  if len(self.contacts.item())>=1:
+  for name in self.contacts.keys():
+  print("Contact  :" Number")
+  print(f"{name}  : {self.contacts[name]}")
+else:
+   print("Your List was empty")
+1=ContactBook()
+print("Welcome to ContactBook")
+while True:
+  print("1. Add contacts\n2. Remove contacts\n3. Show contacts\n4. Exit")
+choice=int(input("Enter Your Choice: "))
+if choice==1:
+  1.add_item()
+elif choice==2:
+  1.remove_list()
+elif choice==3:
+   1.show_items()
+else:
+    break
