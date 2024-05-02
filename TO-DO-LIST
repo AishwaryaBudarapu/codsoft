@@ -1,0 +1,30 @@
+class ToDoList:
+  def __init__(self):
+     self.todolist=[]
+def add_item(self):
+  name=input("Enter Item: ")
+  self.todolist.append(name)
+  print("Item Added")
+def remove_item(self):
+name=input("Enter Item: ")
+self.todolist.remove(name)
+print("Item Added")
+def show_items(self):
+  if len(self.todolist)>1:
+  for x in self.todolist:'
+  print(x)
+else:
+   print("Your List was empty")
+1=ToDoList()
+print("Welcome to ToDoList")
+while True:
+  print("1. Add item\n2. Remove item\n3. Show List\n4. Exit")
+choice=int(input("Enter Your Choice: "))
+if choice==1:
+  1.add_item()
+elif choice==2:
+  1.remove_list()
+elif choice==3:
+   1.show_items()
+else:
+    break
